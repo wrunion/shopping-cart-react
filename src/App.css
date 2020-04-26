@@ -1,0 +1,12 @@
+#header-main {
+  color: purple;
+  margin-top: 1.5em;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Ticket styles */
+
+.ticket-header {
+  color: darkblue;
+}
