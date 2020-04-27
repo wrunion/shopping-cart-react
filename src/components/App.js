@@ -1,19 +1,21 @@
 import React from 'react';
 // import HeaderImage from './Header/Header';
-import DummyHeader from './Header/DummyHeader';
-import ItemControl from './ItemControl/ItemControl';
-import CartControl from './CartControl/CartControl';
+// import DummyHeader from './Header/DummyHeader';
+// import ItemControl from './ItemControl/ItemControl';
+// import CartControl from './CartControl/CartControl';
 import './../App.css';
 import ItemList from './ItemList';
+import Cart from './Cart';
 
 function App(){
   return (
     <React.Fragment>
         {/* <HeaderImage /> */}
-        <DummyHeader />
+        {/* <DummyHeader /> */}
         <ItemList />
-        <ItemControl />
-        <CartControl />
+        <Cart />
+        {/* <ItemControl /> */}
+        {/* <CartControl /> */}
     </React.Fragment>
   );
 }

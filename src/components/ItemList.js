@@ -32,7 +32,7 @@ const ItemList = () => {
           name = {item.name}
           price = {item.price}
           description = {item.description} 
-          id = {item.id} />
+          key = {item.id} />
         )}
       </div>
     </Segment>
