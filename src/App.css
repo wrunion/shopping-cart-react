@@ -16,7 +16,10 @@ h1 {
   color: darkgrey;
 }
 
-
+#itemlist {
+  width: 25vw;
+  /* height: 25vh; */
+}
 
 /* .appgrid {
   display: grid;
