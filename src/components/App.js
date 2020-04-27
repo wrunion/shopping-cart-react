@@ -1,14 +1,12 @@
 import React from 'react';
-import Header from './Header';
+import HeaderImage from './Header/Header';
 import TicketControl from './TicketControl';
 
 function App(){
   return (
     <React.Fragment>
-      <div className="ui container" id="content-all">
-        <Header />
+        <HeaderImage />
         <TicketControl />
-      </div>
     </React.Fragment>
   );
 }
