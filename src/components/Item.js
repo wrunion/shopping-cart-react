@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 
 function Item(props){
   return (
@@ -10,11 +10,11 @@ function Item(props){
   );
 }
 
-Item.propTypes = {
-  name: PropTypes.string,
-  price: PropTypes.number,
-  id: PropTypes.string,
-  itemClick: PropTypes.func
-}
+// Item.propTypes = {
+//   name: PropTypes.string,
+//   price: PropTypes.number,
+//   id: PropTypes.string,
+//   itemClick: PropTypes.func
+// }
 
 export default Item;
